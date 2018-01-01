@@ -8,4 +8,4 @@ quandl.ApiConfig.api_key = quandlconfig.API_KEY
 
 
 data = quandl.get_table(OHLC_TABLE, date='2017-12-27', qopts = { "columns" : [ "ticker","date","open","high","low","close","volume"]}, paginate = True )
-print ("test commit")
+print ("test commit against issue")
